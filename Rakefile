@@ -6,10 +6,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "deferrable"
-    s.summary = %Q{TODO}
-    s.email = "justin@geni.com"
+    s.summary = %Q{Simple mechanism for deferred execution of a block}
+    s.email = "code@justinbalthrop"
     s.homepage = "http://github.com/ninjudd/deferrable"
-    s.description = "TODO"
+    s.description = "Simple mechanism for deferred execution of a block"
     s.authors = ["Justin Balthrop"]
   end
 rescue LoadError

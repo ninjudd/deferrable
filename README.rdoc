@@ -1,0 +1,37 @@
+= Deferrable
+
+Deferrable provides a simple way to defer execution of a block without starting another
+process or thread.
+
+== INSTALL:
+
+  sudo gem install ninjudd-deferrable -s http://gems.github.com
+
+== USAGE:
+
+  class Foo
+    include Deferrable
+    
+    def bar(opts = {})
+      deferred do
+        # do something later
+      end
+
+      now_and_later do
+        # do something now and when deferred blocks are executed
+        # this could be useful for cache invalidations... yum
+      end
+    end
+    
+    def later
+      complete_deferred # executes all deferred blocks in order
+    end
+
+    def nevermind
+      clear_deferred # don't execute the deferred blocks after all
+    end
+  end
+
+== LICENSE:
+
+Copyright (c) 2009 Justin Balthrop, Geni.com; Published under The MIT License, see LICENSE
