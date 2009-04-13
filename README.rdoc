@@ -3,11 +3,7 @@
 Deferrable provides a simple way to defer execution of a block without starting another
 process or thread.
 
-== INSTALL:
-
-  sudo gem install ninjudd-deferrable -s http://gems.github.com
-
-== USAGE:
+== Usage:
 
   class Foo
     include Deferrable
@@ -32,6 +28,10 @@ process or thread.
     end
   end
 
-== LICENSE:
+== Install:
+
+  sudo gem install ninjudd-deferrable -s http://gems.github.com
+
+== License:
 
 Copyright (c) 2009 Justin Balthrop, Geni.com; Published under The MIT License, see LICENSE
