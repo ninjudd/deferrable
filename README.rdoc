@@ -30,7 +30,7 @@ process or thread.
 
 == Install:
 
-  sudo gem install ninjudd-deferrable -s http://gems.github.com
+  sudo gem install deferrable -s http://gemcutter.org
 
 == License:
 
