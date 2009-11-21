@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "deferrable.gemspec",
      "lib/deferrable.rb",
      "test/deferrable_test.rb",
      "test/test_helper.rb"
