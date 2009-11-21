@@ -12,6 +12,7 @@ begin
     s.description = "Simple mechanism for deferred execution of a block"
     s.authors = ["Justin Balthrop"]
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end
