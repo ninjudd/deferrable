@@ -30,7 +30,7 @@ process or thread.
 
 == Install:
 
-  sudo gem install deferrable -s http://gemcutter.org
+  gem install deferrable
 
 == License:
 

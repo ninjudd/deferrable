@@ -1,10 +1,7 @@
 require 'rubygems'
 require 'test/unit'
 require 'shoulda'
-require 'mocha'
+require 'mocha/setup'
 
-$LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'deferrable'
 
-class Test::Unit::TestCase
-end
